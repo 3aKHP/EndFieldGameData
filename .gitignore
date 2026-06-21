@@ -1,0 +1,13 @@
+# Local exports never committed — Release assets are built from these
+# but the raw export_full/ stays on the contributor's machine.
+export_full/
+export_*/
+staged/
+*.zip
+*.tar.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
